@@ -1,0 +1,24 @@
+{
+  "name": "cronos",
+  "version": "0.1.0",
+  "description": "A module for handling cron jobs",
+  "main": "./lib/scheduler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "cron",
+    "schedule",
+    "job",
+    "task"
+  ],
+  "author": "Andrea Mauri",
+  "license": "BSD",
+  "dependencies":{
+	"mongoose":"*",
+	"bunyan":"*",
+	"underscore":"*",
+	"node-schedule":"*"
+  }
+}
