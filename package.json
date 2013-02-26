@@ -6,19 +6,33 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
+  "repository": {
+	"type":"git",
+	"url":"https://github.com/janez87/cronos"
+  },
   "keywords": [
     "cron",
     "schedule",
     "job",
     "task"
   ],
-  "author": "Andrea Mauri",
+  "author": {
+	"name":"Andrea Mauri",
+	"email":"andrea.mauri87@gmail.com",
+	"url":"https://github.com/janez87"
+  },
   "license": "BSD",
   "dependencies":{
 	"mongoose":"*",
 	"bunyan":"*",
 	"underscore":"*",
 	"node-schedule":"*"
-  }
+  },
+  "homepage":"https://github.com/janez87/cronos",
+  "files":[
+	"lib",
+	"README.md"
+  ],
+  "readmeFilename": "README.md"
+  
 }
