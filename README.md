@@ -14,6 +14,10 @@ Installation
 ------------
 Just clone this repo and launch
    `npm install -d`
+   
+or..
+   `npm install -d cronos`
+   
 
 Features
 -------
@@ -61,7 +65,7 @@ How-to
 
 First require the module:
 
-    var Scheduler = require('path_to_the_module/scheduler.js'); //to be change as I publish the module on npm
+    var Scheduler = require('cronos'); //to be change as I publish the module on npm
     
 Then to create a job:
     
