@@ -8,6 +8,8 @@ Status
 ------
 Alpha as f*ck
 
+PS: the logger level is setted to Trace
+
 Installation
 ------------
 Just clone this repo and launch
